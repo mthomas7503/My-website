@@ -55,8 +55,18 @@ const arr3 = ["Managed a team of five to seven associates and assisting them wit
 const ul3 = d.createElement('ul')
 
 for (let i=0; i < arr3.length; i++) {const li = d.createElement('li');
-li.textContent = arr2[i];
+li.textContent = arr3[i];
 ul3.appendChild(li);}
 
 
 SPP.appendChild(ul3)
+
+arr4 =["Beginner level JavaScript, CSS, and HTML.", "I am more than capable of defusing any type of difficult situation.", "I am highly analytical and use the proper resources to make the best decision for our insured and the company.", "Proficient in Microsoft Word, Excel, and PowerPoint", "I am an above average typist at 50+ wpm", "I have a general insurance license, 2-20, and over nine years of experience in the insurance field.", "My communication is always professional yet understandable by the layman.", "I am very self-driven, a self-starter, and very motivated when it comes to resolving any issue both professionally and personally."]
+
+const ul4 = d.createElement('ul')
+
+for (let i=0; i < arr4.length; i++) {const li = d.createElement('li');
+li.textContent = arr4[i];
+ul4.appendChild(li);}
+
+d.body.appendChild(ul4)
