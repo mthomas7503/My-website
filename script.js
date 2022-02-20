@@ -20,6 +20,8 @@ const tcr2 = d.getElementById('TCR2')
 
 const spp = d.getElementById('SPP')
 
+const history = d.getElementById("history")
+
 obj.textContent = "Objectives"
 
 document.querySelector("#obj + p").textContent = "From my 9 years of experience helping customers and working in insurance I have developed the skills to deal with any customer and help them as efficiently and thoroughly as possible. It has also helped me with my problem solving skills as most of my career I have dealt with difficult situations that could ultimately cost people tens, if not hundreds, of thousands of dollars and resolved them with my customer paying nothing out of pocket. I am currently working to shift careers to the world of software engineering and web development as it the field is currently ever expanding and I am starting to enjoy it while learning with my bootcamp."
@@ -69,4 +71,4 @@ for (let i=0; i < arr4.length; i++) {const li = d.createElement('li');
 li.textContent = arr4[i];
 ul4.appendChild(li);}
 
-d.body.appendChild(ul4)
+history.appendChild(ul4)
